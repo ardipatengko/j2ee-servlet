@@ -1,0 +1,12 @@
+th{
+	padding: 5px;
+	background-color: gray;
+}
+
+td{
+	padding: 5px;
+}
+
+body{
+	
+}

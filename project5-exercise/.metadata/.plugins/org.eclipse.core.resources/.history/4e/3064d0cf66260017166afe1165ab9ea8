@@ -1,0 +1,7 @@
+thead.text-input{
+	background-color: black;
+}
+
+body{
+	color: red;
+}

@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Fri Apr 21 15:13:26 ICT 2017
+org.eclipse.jst.jee.server\:SampleApplication=C\:\\xampp\\tomcat\\wtpwebapps\\SampleApplication
+org.eclipse.jst.jee.server\:JSF-Example=C\:\\xampp\\tomcat\\wtpwebapps\\JSF-Example
+org.eclipse.jst.jee.server\:SampleServer=C\:\\xampp\\tomcat\\wtpwebapps\\SampleServer

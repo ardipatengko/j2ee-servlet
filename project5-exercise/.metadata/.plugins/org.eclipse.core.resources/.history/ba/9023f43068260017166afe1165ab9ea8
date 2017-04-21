@@ -1,0 +1,8 @@
+.text-input{
+	background-color: blue;
+	padding: 100px;
+}
+
+body{
+	
+}

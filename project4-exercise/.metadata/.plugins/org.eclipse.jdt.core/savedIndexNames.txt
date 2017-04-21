@@ -39,7 +39,6 @@ INDEX VERSION 1.129+D:\j2ee-servlet\project4-exercise\.metadata\.plugins\org.ecl
 2911469802.index
 449440424.index
 1489977033.index
-4148311624.index
 387829504.index
 891011271.index
 3314433690.index

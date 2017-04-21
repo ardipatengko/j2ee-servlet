@@ -1,0 +1,7 @@
+.tableDesign{
+	background-color: blue;
+}
+
+body{
+	color: red;
+}

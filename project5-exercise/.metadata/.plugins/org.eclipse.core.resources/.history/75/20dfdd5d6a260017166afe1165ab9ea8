@@ -1,0 +1,15 @@
+table{
+	border: none;
+}
+th{
+	padding: 5px;
+	background-color: gray;
+}
+
+td{
+	padding: 10px;
+}
+
+body{
+	
+}

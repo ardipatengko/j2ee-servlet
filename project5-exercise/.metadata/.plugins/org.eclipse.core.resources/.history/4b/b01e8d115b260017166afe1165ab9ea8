@@ -1,0 +1,62 @@
+package com.song.jsf.example;
+
+import java.io.Serializable;
+
+public class Book implements Serializable {
+private static final long serialVersionUID = 1L;
+    
+    private Long isbn;
+    private String title;
+    private String author;
+    private String publisher;
+    private Long price;
+    
+    public Book() {}
+    public Book(Long isbn, String title, String author, String publisher, Long price) {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+        this.publisher = publisher;
+        this.price = price;
+    }
+    
+    public Long getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(Long isbn) {
+		this.isbn = isbn;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public String getPublisher() {
+		return publisher;
+	}
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
+	}
+	public Long getPrice() {
+		return price;
+	}
+	public void setPrice(Long price) {
+		this.price = price;
+	}
+	@Override
+    public Student clone() {
+        return new Student(id, name);
+    }
+    
+    public void restore(Student student) {
+        this.id = student.getId();
+        this.name = student.getName();
+    }
+}
